@@ -1,0 +1,19 @@
+# --- Secrets & credentials: never commit these ---
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+*.keystore
+id_rsa*
+id_ed25519*
+*.tfvars
+secrets.*
+credentials.*
+*.secret
+
+# --- OS / editor noise ---
+.DS_Store
+*.swp
+*~
